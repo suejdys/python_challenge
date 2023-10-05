@@ -1,8 +1,5 @@
-def tax_calc(money):    
-    return money * 0.35     #return money * 0.35
+distance = 0
 
-def pay_tax(tax):
-    print("thank you for paying", tax)
-
-to_pay = tax_calc("suhyeok")    #return value => to_pay variable 
-pay_tax(to_pay)
+while distance < 20:    #distance 값이 20보다 작을때 까지
+    print(distance)    #distance 출력
+    distance = distance + 1     #distance => distance값에 + 1
