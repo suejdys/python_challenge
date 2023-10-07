@@ -1,5 +1,13 @@
-distance = 0
+from requests import get #request라이브러리에서 get 함수를 불러옴
 
-while distance < 20:    #distance 값이 20보다 작을때 까지
-    print(distance)    #distance 출력
-    distance = distance + 1     #distance => distance값에 + 1
+websites = (
+    "google.com",
+    "https://airbnb.com",
+    "facebook.com"
+)       
+
+for website in websites:     
+    if not website.startswith("https://"):      
+        website = f"https://{website}"      
+    response = get(website) #get(using requests) take response
+    print(response)     #print the result
