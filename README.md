@@ -8,3 +8,5 @@ blog : [link](https://suhyeokdevlog.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%E
 * calculator with python(while, if...)
 ### day6
 * caluator using components in list with python(for, if, type...)
+### day7
+* job crawling using bs4 with python(in remoteok.com)
